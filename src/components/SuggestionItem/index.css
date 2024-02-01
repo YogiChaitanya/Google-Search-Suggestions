@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.search-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 70%;
+
+  cursor: pointer;
+  outline: none;
+}
+
+.arrow-icon {
+  width: 10px;
+  height: 10px;
+}

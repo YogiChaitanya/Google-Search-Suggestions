@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.card-container {
+  text-align: center;
+}
+
+.google-img {
+  width: 70%;
+}
+
+.search-container {
+  border: 1px solid #475569;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+
+  width: 70%;
+}
+.serach-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.serach-box {
+  border: none;
+  outline: none;
+
+  color: #475569;
+}
+.search-icon {
+  height: 10px;
+  width: 10px;
+}
